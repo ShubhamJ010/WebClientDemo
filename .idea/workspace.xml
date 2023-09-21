@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="295a04b3-d31d-4168-b362-f68204906a94" name="Changes" comment="done" />
+    <list default="true" id="295a04b3-d31d-4168-b362-f68204906a94" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/Ec/AddServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/Addres2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/Ec/AddServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/EmployeeController/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/dao/EmployeeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/model/AddressResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/model/DetailResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Employee2/src/test/java/com/coforge/addres2/Addres2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Address/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Address/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Employee/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/EmployeeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/EmployeeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/service/EmployeeService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Employee2" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,30 +60,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;65b8851401547628b23d90a2f5119bae&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "65b8851401547628b23d90a2f5119bae",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -68,7 +99,15 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EmployeeApplication">
+  <component name="RunManager" selected="Spring Boot.AddressApplication">
+    <configuration name="Addres2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="employee2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coforge.addres2.Addres2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddressApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Address" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.coforge.demo.AddressApplication" />
@@ -98,6 +137,9 @@
       <workItem from="1695149259721" duration="25000" />
       <workItem from="1695149294581" duration="2918000" />
       <workItem from="1695152711977" duration="277000" />
+      <workItem from="1695287985645" duration="2211000" />
+      <workItem from="1695290290355" duration="2532000" />
+      <workItem from="1695294006436" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <option name="closed" value="true" />
@@ -131,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695152921589</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done">
+      <option name="closed" value="true" />
+      <created>1695286803680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695286803680</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,13 +206,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/EmployeeController/EmployeeController.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/service/EmployeeService.java</url>
-          <line>32</line>
+          <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
