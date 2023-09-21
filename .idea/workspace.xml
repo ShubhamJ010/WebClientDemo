@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="295a04b3-d31d-4168-b362-f68204906a94" name="Changes" comment="comit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/Ec/AddServices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/EmployeeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/EmployeeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/model/AddressResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/model/AddressResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee/src/main/java/com/coforge/demo/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/model/AddressResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee2/src/main/java/com/coforge/addres2/model/AddressResponse.java" afterDir="false" />
-    </list>
+    <list default="true" id="295a04b3-d31d-4168-b362-f68204906a94" name="Changes" comment="fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Employee2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -120,7 +113,7 @@
       <workItem from="1695152711977" duration="277000" />
       <workItem from="1695287985645" duration="2211000" />
       <workItem from="1695290290355" duration="2532000" />
-      <workItem from="1695294006436" duration="705000" />
+      <workItem from="1695294006436" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <option name="closed" value="true" />
@@ -170,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695294317894</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix">
+      <option name="closed" value="true" />
+      <created>1695294735617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695294735617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
     <MESSAGE value="comit" />
-    <option name="LAST_COMMIT_MESSAGE" value="comit" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
