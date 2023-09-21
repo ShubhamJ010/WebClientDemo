@@ -4,7 +4,6 @@ import lombok.Data;
 
 @Data
 public class AddressResponse {
-    private int eid;
     private String address1;
     private int zipcode;
     private String city;

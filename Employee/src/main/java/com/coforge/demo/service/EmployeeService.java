@@ -2,14 +2,13 @@ package com.coforge.demo.service;
 
 import java.util.List;
 
-import com.coforge.demo.Ec.AddServices;
 import com.coforge.demo.model.AddressResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.coforge.demo.dao.EmployeeRepo;
 import com.coforge.demo.model.Employee;
-//import org.springframework.web.reactive.function.client.WebClient;
+import org.springframework.web.reactive.function.client.WebClient;
 
 @Service
 public class EmployeeService {
@@ -17,11 +16,9 @@ public class EmployeeService {
     @Autowired
     private EmployeeRepo repo;
 
-//	@Autowired
-//	private  WebClient.Builder webClientBuilder;
+	@Autowired
+	private  WebClient.Builder webClientBuilder;
 
-    @Autowired
-    private AddServices addServices;
 
     public List<Employee> getEmpDetails() {
         return repo.findAll();
@@ -34,13 +31,12 @@ public class EmployeeService {
     public AddressResponse getEmployeeAddress(int empId) {
         Employee employee = new Employee();
 
-//        return webClientBuilder.build()
-//				.get()
-//				.uri("http://localhost:8081/address/{empId}",empId)
-//				.retrieve()
-//				.bodyToMono(AddressResponse.class)
-//				.block();
-        return addServices.AddService(empId);
+        return webClientBuilder.build()
+				.get()
+				.uri("http://localhost:8081/address/{empId}",empId)
+				.retrieve()
+				.bodyToMono(AddressResponse.class)
+				.block();
 
     }
 
