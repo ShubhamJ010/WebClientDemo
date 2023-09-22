@@ -17,7 +17,7 @@ public class EmployeeService {
     private EmployeeRepo repo;
 
 	@Autowired
-	private  WebClient.Builder webClientBuilder;
+	private  WebClient.Builder getwebclientbuilder;
 
 
     public List<Employee> getEmpDetails() {
@@ -29,11 +29,9 @@ public class EmployeeService {
     }
 
     public AddressResponse getEmployeeAddress(int empId) {
-        Employee employee = new Employee();
-
-        return webClientBuilder.build()
+        return getwebclientbuilder.build()
 				.get()
-				.uri("http://localhost:8081/address/{empId}",empId)
+				.uri("/address/{empId}",empId)
 				.retrieve()
 				.bodyToMono(AddressResponse.class)
 				.block();
